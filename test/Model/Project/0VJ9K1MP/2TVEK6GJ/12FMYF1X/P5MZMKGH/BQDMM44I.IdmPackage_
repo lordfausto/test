@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Loopback Managed System Information">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="de" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="fr" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="ja" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_CN" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_TW" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="WPS609UU_201401211050120158"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="2.0.1.20190225112811"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="2"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="1860283072"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="2033317526"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="Prompts for and auto-generates the MSysInfo object which is required for Data Collection."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NOVLLBMSINFO"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20190225112811"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="IND-L-VSINGH"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="VSingh"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201902251126070155"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="Novell,Inc"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="7"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;dependencies>&#xA;&#x9;&#x9;&lt;dependency name=&quot;Advanced Java Class&quot; package-id=&quot;L24GR3S2_201004011133330053&quot; type=&quot;3&quot;/>&#xA;&#x9;&lt;/dependencies>&#xA;&#x9;&lt;policy-linkage>&#xA;&#x9;&#x9;&lt;policy-set channel=&quot;publisher&quot; name=&quot;ecma-script&quot; order=&quot;weight&quot; package-id=&quot;L24GR3S2_201004011133330053&quot; pkg-assoc-id=&quot;AG7O65ME_201004011133540084&quot; pkg-assoc-name=&quot;NOVLLIBAJC-JS&quot; value=&quot;500&quot;/>&#xA;&#x9;&lt;/policy-linkage>&#xA;&#x9;&lt;supported-drivers>&#xA;&#x9;&#x9;&lt;definition display-name=&quot;Loopback Driver&quot; driver-id=&quot;LoopBack-Driver&quot; id=&quot;LBACK&quot;/>&#xA;&#x9;&lt;/supported-drivers>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:InstalledPackageDriverRefs" type="BackReference" key="#ZRV1Z4F8.Driver_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#63TR8DWU.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#PYMX1REL.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#SOLDLDHH.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#T43KSG6P.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#I0M5T75M.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#Y04NGZ0X.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#UV7R36EC.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#KV4WO66P.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#ZT7VRLHT.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

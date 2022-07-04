@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><ds-object ds-object-class="DirXML-Rule" ds-object-name="NETQLBACKDC-ctp-AddAssociation" name="NETQLBACKDC-ctp-AddAssociation">
+	<ds-attributes>
+		<ds-attribute ds-attr-name="XmlData">
+			<ds-value>
+				<policy>
+					<rule>
+						<description>Add Association</description>
+						<conditions>
+							<and>
+								<if-class-name mode="regex" op="equal">Group|User</if-class-name>
+								<if-operation mode="regex" op="equal">add|modify</if-operation>
+							</and>
+						</conditions>
+						<actions>
+							<do-set-op-association>
+								<arg-association>
+									<token-src-attr name="GUID"/>
+								</arg-association>
+							</do-set-op-association>
+							<do-add-association>
+								<arg-association>
+									<token-xpath expression="association/text()"/>
+								</arg-association>
+							</do-add-association>
+						</actions>
+					</rule>
+				</policy>
+			</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-installationdirective">
+			<ds-value>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48aW5zdGFsbGF0aW9uLWRpcmVjdGl2ZT4KCTxwbGFjZW1lbnQgbG9jYXRpb249InN1YnNjcmliZXIiLz4KCTxkcy1hdHRyaWJ1dGVzLz4KCTxwb2xpY3ktbGlua2FnZT4KCQk8cG9saWN5LXNldCBjaGFubmVsPSJzdWJzY3JpYmVyIiBuYW1lPSJjb21tYW5kIiBvcmRlcj0iV2VpZ2h0IiB2YWx1ZT0iNTAwIi8+Cgk8L3BvbGljeS1saW5rYWdlPgo8L2luc3RhbGxhdGlvbi1kaXJlY3RpdmU+</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-directivechecksum">
+			<ds-value>3491948463</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageassocguid">
+			<ds-value>1F37P7Y1_201810121303150873</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-packageguid">
+			<ds-value>D16KGQ2E_201810121122360099</ds-value>
+		</ds-attribute>
+		<ds-attribute ds-attr-name="idm-contentchecksum">
+			<ds-value>909276810</ds-value>
+		</ds-attribute>
+	</ds-attributes>
+</ds-object>

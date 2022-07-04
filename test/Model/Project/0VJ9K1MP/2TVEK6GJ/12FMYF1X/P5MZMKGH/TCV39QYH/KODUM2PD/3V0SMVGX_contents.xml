@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><filter>
+	<filter-class class-name="User" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="Surname" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+		<filter-attr attr-name="Given Name" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+	<filter-class class-name="Group" publisher="ignore" publisher-create-homedir="true" publisher-track-template-member="true" subscriber="sync">
+		<filter-attr attr-name="CN" merge-authority="default" publisher="ignore" publisher-optimize-modify="true" subscriber="sync"/>
+	</filter-class>
+</filter>

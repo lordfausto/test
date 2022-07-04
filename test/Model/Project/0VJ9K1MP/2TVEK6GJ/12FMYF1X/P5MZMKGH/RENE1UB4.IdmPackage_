@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Loopback Default Configuration">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="D16KGQ2E_201810121122360099"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="1.0.0.20181012145639"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="2"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="2355759504"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="3908500501"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="Contains policies required for default configuration."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NETQLBACKDC"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20181012145639"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="IND-L-ASURESHPR"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="ASureshPrabhu"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201810121122360099"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="Micro Focus"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="0"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;ds-attributes/>&#xA;&#x9;&lt;supported-drivers>&#xA;&#x9;&#x9;&lt;definition display-name=&quot;Loopback Driver&quot; driver-id=&quot;LoopBack-Driver&quot; id=&quot;LBACK&quot;/>&#xA;&#x9;&lt;/supported-drivers>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:InstalledPackageDriverRefs" type="BackReference" key="#ZRV1Z4F8.Driver_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#7TL0AK3J.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#XGGVFSZB.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#Z9RZ53Z3.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#57FAW5R7.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#3P295RLL.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#4QTNVBL5.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#ZV0P9XR9.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#9IGX95BS.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#IAXXC9RL.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Driver Set" type="DriverSet">
+  <associatedAttrSets objectURI="EdirOrphan/ZA1WB4J4.Server_">
+    <attributes xsi:type="com.novell.designer.model:CStructure" attrName="NamedPasswords"/>
+  </associatedAttrSets>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:Modeler.NameInited" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="DSetCreatePartition" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:Modeler.DefaultDriverSet" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CStructure" attrName="DirXML-LogEvents">
+    <attributes xsi:type="com.novell.designer.model:CInteger" attrName="LogEvent" value="0"/>
+  </attributes>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdmParameter:Modeler.DefaultDriverSetAdded" value="true"/>
+  <relations name="Idm:Drivers" type="Child" key="#ZRV1Z4F8.Driver_"/>
+  <relations name="Idm:IdentityVaults" type="BackReference" key="#HLCVVWGY.IdentityVault_"/>
+  <relations name="Idm:InstalledPackages" type="Reference" key="#SIAOAEMK.IdmPackage_"/>
+  <relations name="Idm:Libraries" type="Child" key="#SF0R5F5N.Library_"/>
+  <relations name="Idm:Servers" type="Reference" key="#ZA1WB4J4.Server_"/>
+</com.novell.designer.model:CObject>

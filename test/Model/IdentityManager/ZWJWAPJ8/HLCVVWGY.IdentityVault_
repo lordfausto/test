@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Identity Vault" type="IdentityVault">
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdentityVaultHost" value="10.1.1.1"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="IdentityVaultUsername" value="cn=admin,o=novell"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="IdentityVaultSavePassword" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CStructure" attrName="ContactInfo"/>
+  <relations name="Idm:DriverSets" type="ContainedReference" key="#FNM51TP4.DriverSet_"/>
+  <relations name="Idm:Schema" type="Child" key="#NSJQY63W.SchemaDef_"/>
+  <relations name="Idm:Servers" type="ContainedReference" key="#ZA1WB4J4.Server_"/>
+  <relations name="Idm:TemplateCollections" type="ContainedReference" key="#ZTHD4NC3.NotfTemplateCollection_"/>
+</com.novell.designer.model:CObject>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.novell.designer.model:CObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.novell.designer.model="http://com.novell.designer.model" name="Advanced Java Class">
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="license"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="change" extension="log"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="readme" extension="txt"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en_" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="en" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="de" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="fr" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="ja" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_CN" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CHeavyData" attrName="zh_TW" extension="properties"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:PackageImported" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageGuid" value="L24GR3S2_201004011133330053"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:PackageVersion" value="2.2.2.20190806142553"/>
+  <attributes xsi:type="com.novell.designer.model:CInteger" attrName="Idm:PackageType" value="3"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:BasePackage" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Released" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:ContentChecksum" value="2876021504"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:DirectiveChecksum" value="587057862"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:description" value="ECMAScript implementation and extension of the Advanced Java Class. This package provides numerous helper functions that can be used in policy."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:shortName" value="NOVLLIBAJC"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildTime" value="20190806142553"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildHost" value="WIN-CGFPISPOJTQ"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:BuildUser" value="Administrator"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:Protected" value="false"/>
+  <attributes xsi:type="com.novell.designer.model:CBoolean" attrName="Idm:newVersion" value="true"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:CreationTime" value="201908061423310341"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:vendorName" value="Novell, Inc."/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:minIdmVersion" value="4.0.0"/>
+  <attributes xsi:type="com.novell.designer.model:CLong" attrName="Idm:InternalVersion" value="25"/>
+  <attributes xsi:type="com.novell.designer.model:CString" attrName="Idm:InstallationDirective" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;installation-directive>&#xA;&#x9;&lt;supported-drivers/>&#xA;&lt;/installation-directive>"/>
+  <relations name="Idm:InstalledPackageDSetRefs" type="BackReference" key="#FNM51TP4.DriverSet_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#KX6LLX26.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#UGYTJ1GU.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#ONSLPP65.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#FH3LJ2NC.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#WTSBGSAX.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#5WCIWOHA.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#0XUHINVF.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#9RZPTQ6X.IdmPackageFolder_"/>
+  <relations name="Idm:PackageFolders" type="Child" key="#10SD57Q0.IdmPackageFolder_"/>
+</com.novell.designer.model:CObject>

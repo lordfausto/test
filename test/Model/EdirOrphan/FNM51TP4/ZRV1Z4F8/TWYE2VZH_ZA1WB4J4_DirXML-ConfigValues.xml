@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions display-name="Managed System Information">
+		<header display-name="General Information"/>
+		<definition display-name="Name" name="msysinfo.drv.ms.name" type="string">
+			<description>Specify a descriptive name for the managed system.</description>
+			<value>Test</value>
+		</definition>
+		<definition display-name="Description" multi-line="true" name="msysinfo.drv.ms.description" type="string">
+			<description>Specify a brief description of the managed system</description>
+			<value/>
+		</definition>
+		<definition display-name="Location" name="msysinfo.drv.ms.location" type="string">
+			<description>Specify the location of the managed system.</description>
+			<value/>
+		</definition>
+		<definition display-name="Vendor" name="msysinfo.drv.ms.vendor" type="enum">
+			<description>Specify the vendor of the managed system.</description>
+			<value>Novell</value>
+			<enum-choice display-name="Novell">Novell</enum-choice>
+		</definition>
+		<definition display-name="Version" name="msysinfo.drv.ms.version" type="string">
+			<description>Specify the version of the managed system.</description>
+			<value/>
+		</definition>
+		<header display-name="System Ownership"/>
+		<definition display-name="Business Owner" dn-space="dirxml" dn-type="ldap" name="msysinfo.drv.ms.businessOwner" type="dn">
+			<description>Specify the business owner of the managed system. Select a user object (not a role, group, or container).</description>
+			<value/>
+		</definition>
+		<definition display-name="Application Owner" dn-space="dirxml" dn-type="ldap" name="msysinfo.drv.ms.applicationOwner" type="dn">
+			<description>Specify the application owner of the managed system. Select a user object (not a role, group, or container).</description>
+			<value/>
+		</definition>
+		<header display-name="System Classification"/>
+		<definition display-name="Classification" name="msysinfo.drv.ms.classification" type="string">
+			<description>Specify the classification of the managed system.</description>
+			<value>Vital</value>
+		</definition>
+		<definition display-name="Environment" name="msysinfo.drv.ms.environment" type="string">
+			<description>Specify the type of environment the managed system provides.</description>
+			<value>Production</value>
+		</definition>
+		<header display-name="Connection And Miscellaneous Information (auto-generated, do not change!)"/>
+		<group>
+			<definition display-name="Connection and miscellaneous information" name="msysinfo.drv.ms.auto.generated.info.show" type="enum">
+				<description>Show auto-generated information</description>
+				<enum-choice display-name="show">true</enum-choice>
+				<enum-choice display-name="hide">false</enum-choice>
+				<value>false</value>
+			</definition>
+			<subordinates active-value="true">
+				<definition display-name="ID" name="msysinfo.drv.ms.id" type="string">
+					<description>Uniquely identifies the managed system.</description>
+					<value/>
+				</definition>
+				<definition display-name="Type" name="msysinfo.drv.ms.type" type="string">
+					<description>Type of the managed system.</description>
+					<value/>
+				</definition>
+				<definition display-name="Authentication IP Address" name="msysinfo.drv.ms.auth.ip" type="string">
+					<description>IP address used to authenticate to the managed system.</description>
+					<value/>
+				</definition>
+				<definition display-name="Authentication Port" name="msysinfo.drv.ms.auth.port" type="string">
+					<description>Port used to authenticate to the managed system.</description>
+					<value/>
+				</definition>
+				<definition display-name="Authentication ID" name="msysinfo.drv.ms.auth.id" type="string">
+					<description>User ID used to authenticate to managed system.</description>
+					<value/>
+				</definition>
+			</subordinates>
+		</group>
+	</definitions>
+</configuration-values>

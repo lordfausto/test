@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><configuration-values>
+	<definitions>
+		<header display-name="xlfid(NOVLLBACKB.idmresource.NOVLLBACKBUpgradeNotification.gcv.header.ImportantNote)Important Note"/>
+		<definition display-name="xlfid(NOVLLBACKB.idmresource.NOVLLBACKBUpgradeNotification.gcv.dummy)dummy" hide="true" name="dummy" type="string"/>
+		<header display-name="xlfid(NOVLLBACKB.idmresource.NOVLLBACKBUpgradeNotification.gcv.header.*PermissionCollectionReconcilicationServicePCRShasbeenremovedwiththeintroductionofControlledPermissionReconciliationServiceCPRS)* Permission Collection Reconcilication Service(PCRS) has been removed with the introduction of Controlled Permission Reconciliation Service(CPRS)"/>
+		<definition display-name="xlfid(NOVLLBACKB.idmresource.NOVLLBACKBUpgradeNotification.gcv.dummy2)dummy2" hide="true" name="dummy2" type="string"/>
+		<header display-name="xlfid(NOVLLBACKB.idmresource.NOVLLBACKBUpgradeNotification.gcv.header.*ReferCPRSDocumentationforconfigurationandmigrationsteps)* Refer CPRS Documentation for configuration steps"/>
+	</definitions>
+</configuration-values>
